@@ -1,11 +1,11 @@
 import React from 'react';
-import ExampleComponent from './components/ExampleComponent';
+import LandingPage from './components/LandingPage';
+
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">Welcome to LMS Frontend</h1>
-      <ExampleComponent />
+     <LandingPage />
     </div>
   );
 };
